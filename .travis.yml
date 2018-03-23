@@ -1,6 +1,8 @@
-language: hack
-hhvm:
-  - 3.24
-  - nightly
+language: php
+php:
+  - hhvm-3.18
+  - hhvm-3.21
+  - hhvm-3.24
+  - hhvm-nightly
 script:
   hhvm --version
